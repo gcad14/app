@@ -64,11 +64,26 @@
             <version>1.6.1</version>
         </dependency>
 
-        <!--发送邮件-->
+        <!--发送邮件 begin-->
         <!-- springboot 邮件mail -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+        <!--发送邮件  end-->
+        <!--swagger begin-->
+        <!--swagger api获取-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!--swagger-UI  获取-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!--swagger end-->
     </dependencies>
 </project>

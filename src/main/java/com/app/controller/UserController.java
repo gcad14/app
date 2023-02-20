@@ -31,8 +31,8 @@ public class UserController {
 
     @GetMapping("/getUserInfo")
     @ApiOperation("获取用户信息")
-    public String getUser() {
-        return userService.getUser();
+    public String getUser(String id) {
+        return userService.getUser(id);
     }
 
     //导出Word

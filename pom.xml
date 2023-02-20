@@ -71,5 +71,17 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
         <!--发送邮件  end-->
+        <!--swagger begin-->
+<!--        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>3.0.0</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!--swagger end-->
     </dependencies>
 </project>

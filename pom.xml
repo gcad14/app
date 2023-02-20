@@ -72,18 +72,12 @@
         </dependency>
         <!--发送邮件  end-->
         <!--swagger begin-->
-        <!--swagger api获取-->
         <dependency>
             <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <!--swagger-UI  获取-->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>3.0.0</version>
         </dependency>
         <!--swagger end-->
+        <!--美化swagger-->
     </dependencies>
 </project>

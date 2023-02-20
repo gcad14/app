@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @RestController
-@Api(tags = "userController",description = "测试Controller")
+@Api(tags = "用户管理")
 @RequestMapping("/user")
 @CrossOrigin
 public class UserController {

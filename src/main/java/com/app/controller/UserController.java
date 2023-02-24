@@ -31,7 +31,7 @@ public class UserController {
 
     @GetMapping("/getUserInfo")
     @ApiOperation("获取用户信息")
-    public String getUser(String id) {
+    public String getUser(Integer id) {
         return userService.getUser(id);
     }
 

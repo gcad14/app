@@ -11,7 +11,7 @@
     <select id="getUserById" resultType="java.lang.String">
         select name from t_user where 1=1
         <if test="id != null">
-            and name = #{id}
+            and id = #{id,javaType=Integer}
         </if>
     </select>
     <select id="selectList" resultType="com.app.model.User">

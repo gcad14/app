@@ -6,7 +6,7 @@ import com.app.model.User;
 import java.util.List;
 
 public interface UserService {
-    String getUser(String id);
+    String getUser(Integer id);
 
     void inserUser(User user);
 
